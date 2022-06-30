@@ -3,7 +3,7 @@
 
     <groupId>com.tdunning</groupId>
     <artifactId>t-digest-parent</artifactId>
-    <version>3.4-SNAPSHOT</version>
+    <version>3.4-inv</version>
     <name>T-digest Parent</name>
     <packaging>pom</packaging>
 
@@ -62,4 +62,30 @@
             </modules>
         </profile>
     </profiles>
+
+    <distributionManagement>
+		<repository>
+			<id>invesdwin-oss</id>
+			<name>invesdwin-oss</name>
+			<url>https://invesdwin.de/repo/invesdwin-oss</url>
+		</repository>
+		<snapshotRepository>
+			<id>invesdwin-oss</id>
+			<name>invesdwin-oss</name>
+			<url>https://invesdwin.de/repo/invesdwin-oss</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+    <repositories>
+		<repository>
+			<id>invesdwin-oss</id>
+			<url>https://invesdwin.de/repo/invesdwin-oss-remote</url>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>invesdwin-oss</id>
+			<url>https://invesdwin.de/repo/invesdwin-oss-remote</url>
+		</pluginRepository>
+	</pluginRepositories>
 </project>
