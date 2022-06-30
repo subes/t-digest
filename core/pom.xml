@@ -23,11 +23,11 @@
     <parent>
         <groupId>com.tdunning</groupId>
         <artifactId>t-digest-parent</artifactId>
-        <version>3.4-SNAPSHOT</version>
+        <version>3.4-inv</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>t-digest</artifactId>
-    <version>3.4-SNAPSHOT</version>
+    <version>3.4-inv</version>
 
     <packaging>jar</packaging>
     <name>t-digest</name>
