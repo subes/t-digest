@@ -41,6 +41,7 @@
     <properties>
         <source.property>1.8</source.property>
         <target.property>1.8</target.property>
+        <maven.javadoc.skip>true</maven.javadoc.skip>
     </properties>
 
     <profiles>
